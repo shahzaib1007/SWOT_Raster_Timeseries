@@ -22,9 +22,10 @@ This project demonstrates how to leverage NASA’s Surface Water and Ocean Topog
 - **Visualization Tools**  
   - Generates quick **GIFs** for individual SWOT granules and flood propagation outputs.  
 
-> ⚠️ **Important:**  
-> Users can also use this framework for their analysis with **standard SWOT rasters** via the EarthData download component.  
-> However, these are fixed at **100 m resolution**. To generate rasters with **customized resolutions**, the **SWODLR component** must be used.  
+⚠️ **Note:**  
+
+  - Users can also use this framework for their analysis with **standard SWOT rasters** via the EarthData download component.  
+  - However, these are fixed at **100 m resolution**. To generate rasters with **customized resolutions**, the **SWODLR component** must be used.  
 
 ## Case Studies
 
@@ -94,10 +95,11 @@ python dominant_patch.py --save_data_loc <path-where-you-downloaded-earthdata-da
 ```
 
 
-> **Tip:**
->  - Use the SWODLR workflow if you need customized raster resolutions (e.g., 90 m).  
->  - Use the EarthData workflow if standard 100 m rasters are sufficient.  
->  - You can view all available options for any script by appending --help or -h. For e.g. 
+**Tip:**
+
+ - Use the SWODLR workflow if you need customized raster resolutions (e.g., 90 m).  
+ - Use the EarthData workflow if standard 100 m rasters are sufficient.  
+ - You can view all available options for any script by appending --help or -h. For e.g. 
     ```
     python SWODLR_Python_Request.py --help
     ```
