@@ -47,7 +47,8 @@ SWODLR supports limited data collection (PGC0)
 mkdir <project-dir>
 cd <project-dir>
 git clone https://github.com/shahzaib1007/SWOT_SWODLR_Python.git  
-pip install -r requirements.txt
+conda env create -f environment.yaml
+conda activate swodlr_env
 ```
 
 ### Usage
