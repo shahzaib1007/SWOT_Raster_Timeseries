@@ -1,0 +1,21 @@
+name: swodlr_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - cartopy
+  - earthaccess
+  - geopandas
+  - ipython
+  - matplotlib
+  - numpy
+  - netcdf4
+  - pandas
+  - pyproj
+  - requests
+  - rioxarray
+  - ruamel.base
+  - scipy
+  - Shapely
+  - tqdm
+  - xarray
